@@ -1,0 +1,37 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.main {
+   background-color: #3498db;
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.box{
+   width: 50%;
+   background-color: #fff;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+.row {
+   margin: 15px;
+   margin-left: 0;
+}
+
+.btn {
+   display: inline-block;
+   width: 100%;
+   padding: 5px;
+   background-color: #3498db;
+   border: none;
+   color: white;
+   border-radius: 5px;
+   font-size: 15px;
+}
