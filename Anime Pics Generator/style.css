@@ -1,0 +1,49 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: linear-gradient(to right, lightblue, yellow);
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+   background: aliceblue;
+   /* border:  3px solid purple; */
+   border-radius: 15px;
+   text-align: center;
+   padding: 10px;
+   width: 450px;
+   margin: 5px; /* so in mobile the container don't take the whole size that's why margin give*/
+}
+
+.btn{
+   background-color: green;
+   color: aliceblue;
+   padding: 10px 30px;
+   font-size: 16px;
+   margin: 15px 0 30px;
+   border-radius: 6px;
+   cursor: pointer;
+}
+
+.btn:disabled{
+   background-color: gray;
+   cursor: not-allowed;
+}
+
+.anime-container{
+   display: none;
+}
+
+.anime-img{
+   width: 300px;
+   height: 300px;
+   border-radius: 50%;
+}
